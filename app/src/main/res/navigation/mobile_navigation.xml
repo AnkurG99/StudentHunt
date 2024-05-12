@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.studenthunt.fragment.fragment_home"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_department"
+
+        android:name="com.example.studenthunt.fragment.fragment_department"
+        android:label="@string/menu_department"
+        tools:layout="@layout/fragment_department">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.studenthunt.fragment.fragment_chat"
+        android:label="@string/menu_chat"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_add_info"
+
+        android:name="com.example.studenthunt.fragment.fragment_add_info"
+        android:label="@string/menu_ass_info">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_customize"
+        android:name="com.example.studenthunt.fragment.fragment_customize"
+        android:label="@string/menu_customize">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+
+        android:name="com.example.studenthunt.fragment.fragment_account"
+        android:label="@string/menu_profile">
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile_college"
+
+        android:name="com.example.studenthunt.fragment.fragment_college_account"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_college_account">
+
+    </fragment>
+</navigation>
